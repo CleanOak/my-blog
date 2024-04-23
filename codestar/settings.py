@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
-if os.path.isfile(env.py):
+if os.path.isfile('env.py'):
     import env
 
 
@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-kvmf)c6rp4m_r8(l#g(p3%%qw$-fw5sllvc)6+!o%vvrqct8fa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-cleanoak-myblog-oewoho0n0sl.ws-eu110.gitpod.io',
