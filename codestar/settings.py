@@ -33,7 +33,6 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '8000-cleanoak-myblog-esam8i6bav6.ws-eu110.gitpod.io',
     '*.herokuapp.com',
-    'mi-django-blog-f036b0cf8de5.herokuapp.com',
     ]
 
 
