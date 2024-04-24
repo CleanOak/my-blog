@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-kvmf)c6rp4m_r8(l#g(p3%%qw$-fw5sllvc)6+!o%vvrqct8fa
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-cleanoak-myblog-esam8i6bav6.ws-eu110.gitpod.io',
+    '8000-cleanoak-myblog-mpaq03kdxio.ws-eu110.gitpod.io',
     '*.herokuapp.com',
     ]
 
