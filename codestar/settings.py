@@ -29,12 +29,13 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure-kvmf)c6rp4m_r8(l#g(p3%%qw$-fw5sllvc)6+!o%vvrqct8fa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-cleanoak-myblog-mpaq03kdxio.ws-eu110.gitpod.io',
     '*.herokuapp.com',
     'mi-django-blog-f036b0cf8de5.herokuapp.com',
+    '8000-cleanoak-myblog-mpaq03kdxio.ws-eu111.gitpod.io',
     ]
 
 
@@ -49,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_summernote',
     'blog',
+    'about',
 ]
 
 MIDDLEWARE = [
