@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [
     '*.herokuapp.com',
     'mi-django-blog-f036b0cf8de5.herokuapp.com',
     '8000-cleanoak-myblog-mpaq03kdxio.ws-eu111.gitpod.io',
+    '8000-cleanoak-myblog-62liji04szn.ws-eu114.gitpod.io'
     ]
 
 
